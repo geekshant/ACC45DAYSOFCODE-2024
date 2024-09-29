@@ -10,3 +10,4 @@ if 1 <= X <= 20:
 # this line of code prints (invalid) if user do not enter the correct value of points (X)
 else:
     print("Invalid input. Points should be between 1 and 20.")
+

@@ -6,7 +6,7 @@ def find_single_number(nums):
 
 def main():
     # Take input from the user
-    nums = list(map(int, input("Enter the elements of the array separated by spaces: ").split()))
+    nums = list(map(int, input("Enter the element of the array separated by spaces: ").split()))
     
     # Find the single number
     result = find_single_number(nums)

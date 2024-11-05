@@ -25,7 +25,7 @@ def summary_ranges(nums):
     return ranges
 
 def main():
-    nums = list(map(int, input("Enter the sorted unique integer array separated by spaces: ").split()))
+    nums = list(map(int, input("Enter the sorted unique integers array separated by spaces: ").split()))
     result = summary_ranges(nums)
     
     print("The smallest sorted list of ranges that cover all the numbers in the array exactly:")
